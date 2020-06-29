@@ -1,0 +1,27 @@
+1. meta 사용법
+    1. meta는 빈태그
+    2. name, contenct, charset같은 정보 입력
+    3. <meta charset="UTF-8">의 의미
+2. character set (charset)
+    1. 사용할 수 있는 인코딩 방식
+    2. EUC-KR : 완성형
+    3. UTF-8: 조합형
+3. html요소 레퍼런스 mdn
+    1. meta 태그 클릭
+4. LINK 태그
+    1. 의미: css 가져오는 것
+    2. link tag mdn
+    3. href, hreflang (ko와 같은 언어 설정)
+    4. rel (stylesheet)와 같은 설정
+5. STYLE 태그
+    1. CSS 속성 쓰는 곳
+    2. type = "text.css" 라고 써줘도 됨 (기본값)
+    3. body태그 안에서 작성해도 문제 없음 - 효율적이지 않음
+6. type 속성
+    1. style 이나 link에서 사용 
+    2. 생략 가능
+    3. mime type mdn 
+7. base 태그
+    1. 상대 경로 입력할 때 base 통해 한번에 통함
+    2. 한번만 작성할 수 있으니까 주요하게 쓰일 태그로 입력하기
+    
