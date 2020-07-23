@@ -1,0 +1,23 @@
+1. form 태그
+    1. 폼을 형성해주는 태그
+    2. method, name, action, target 등 여러 속성을 집어 넣어줘야 함.
+2. label 태그
+    1. 입력창, 제출버튼과 달리 붙여있는 글자들
+    2. 라디오 버튼을 사용하면 텍스트와 같이 누를 수 있어서 checkbox보다 편함
+3. fieldset, legend 태그
+    1. 하나의 폼 안에서 여러 구역을 나누어 표시하려고 할 때 사용 
+    2. fieldset 태그는 하나의 영역으로 묶고 외곽선을 그려줌
+    3. legend 태그는 묶은 그룹에 제목을 붙여줌
+4. input - type
+    1. hidden : 아이디 중복 여부 확인 / 보이지 않음
+    2. id, password
+5. input의 다양한 태그
+    1. autofocus : 입력커서 표시하기 
+    2. placeholder : 힌트 표시하기
+    3. readonly : 읽기전용 필드 표시하기 
+    4. required : 필수 필드 지정하기
+6. 여러 데이터 나열해 보여주기
+    1.  드롭다운 태그    
+     - select : 드롭다운의 처음과 끝 표시 : size(항목개수), multiple (여러 개의 옵션이 함께 표시)
+     - option : 원하는 항목들 추가 : value (옵션 선택했을 때 서버로 넘겨질 값)
+     - optgroup : label 속성을 사용해서 그룹의 제목을 붙임
